@@ -2,7 +2,7 @@
 include'database.php';
 ?>
 <?php
-$query="SELECT * from shouts ORDER BY id desc";
+$query="SELECT * from shouts ORDER BY id ";
 $shouts=mysqli_query($con,$query);
 ?>
 
